@@ -39,7 +39,6 @@ def sum_of_calibration_values(text):
     total_sum = 0
 
     for line in lines:
-        print(extract_digits(line))
         total_sum += extract_digits(line)
 
     return total_sum
