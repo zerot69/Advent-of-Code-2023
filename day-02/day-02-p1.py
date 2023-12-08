@@ -16,10 +16,8 @@ def check_game_possible(string):
 def sum_of_game_ids(text):
     lines = text.strip().split("\n")
     total_sum = 0
-
     for line in lines:
         total_sum += check_game_possible(line)
-
     return total_sum
 
 

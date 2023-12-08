@@ -19,10 +19,8 @@ def check_color_max(string):
 def sum_of_game_power(text):
     lines = text.strip().split("\n")
     total_sum = 0
-
     for line in lines:
         total_sum += check_color_max(line)
-
     return total_sum
 
 

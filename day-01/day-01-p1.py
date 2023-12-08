@@ -14,10 +14,8 @@ def extract_digits(word):
 def sum_of_calibration_values(text):
     lines = text.strip().split("\n")
     total_sum = 0
-
     for line in lines:
         total_sum += extract_digits(line)
-
     return total_sum
 
 
