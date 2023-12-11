@@ -4,6 +4,36 @@
 
 This repository contains my solutions for the [Advent of Code 2023](https://adventofcode.com/2023) challenges. This repository is a collection of my solutions in Python. My solutions are not necessarily the most efficient or elegant, but they are the product of my own work and reflect my own learning process. I hope that you find them useful!
 
+## Progress
+
+| Day | Part 1 | Part 2 |
+| --- | ------ | ------ |
+| 1   | :star: | :star: |
+| 2   | :star: | :star: |
+| 3   | :star: | :star: |
+| 4   | :star: | :star: |
+| 5   |        |        |
+| 6   | :star: | :star: |
+| 7   |        |        |
+| 8   |        |        |
+| 9   |        |        |
+| 10  | :star: |        |
+| 11  | :star: | :star: |
+| 12  |        |        |
+| 13  |        |        |
+| 14  |        |        |
+| 15  |        |        |
+| 16  |        |        |
+| 17  |        |        |
+| 18  |        |        |
+| 19  |        |        |
+| 20  |        |        |
+| 21  |        |        |
+| 22  |        |        |
+| 23  |        |        |
+| 24  |        |        |
+| 25  |        |        |
+
 ## Folder Structure
 
 The repository is organized into folders corresponding to each day of the Advent of Code challenge. Each folder contains the solution for that specific day, along with any supporting files or input data required for the solution.
