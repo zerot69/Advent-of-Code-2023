@@ -46,7 +46,7 @@ To see how much margin of error you have, determine the **_number of ways you ca
 
 Determine the number of ways you could beat the record in each race. **What do you get if you multiply these numbers together?**
 
-# Part Two
+## Part Two
 
 As the race is about to start, you realize the piece of paper with race times and record distances you got earlier actually just has very bad _[kerning](https://en.wikipedia.org/wiki/Kerning)_. There's really **_only one race_** - ignore the spaces between the numbers on each line.
 

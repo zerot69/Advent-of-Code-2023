@@ -104,7 +104,7 @@ In this example, after expanding the universe, the sum of the shortest path betw
 
 Expand the universe, then find the length of the shortest path between every pair of galaxies. **What is the sum of these lengths?**
 
-# Part Two
+## Part Two
 
 The galaxies are much **_older_** (and thus much **_farther apart_**) than the researcher initially estimated.
 
