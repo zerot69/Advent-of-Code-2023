@@ -37,26 +37,19 @@ def get_type(hand):
     }
     values = list(cards.values())
     if jokers == 5 or (values[0] + jokers == 5):
-        print("Five of a kind")
         return 6
     elif values[0] + jokers == 4:
-        print("Four of a kind")
         return 5
     elif values[0] + jokers == 3:
         if values[1] == 2:
-            print("Full house")
             return 4
         else:
-            print("Three of a kind")
             return 3
     elif values[0] == 2 and values[1] == 2:
-            print("Two pair")
             return 2
     elif values[0] == 2 or jokers:
-        print("One pair")
         return 1
     else:
-        print("High card")
         return 0
 
 
@@ -71,7 +64,6 @@ ranks = [hand for _, hand in ranked_hands]
 result = 0
 
 for index, hand in enumerate(ranks):
-    print(hand)
     result += int(hand[1]) * (index + 1)
 
 print(result)
