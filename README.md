@@ -12,7 +12,7 @@ This repository contains my solutions for the [Advent of Code 2023](https://adve
 | 2   | :star: | :star: |
 | 3   | :star: | :star: |
 | 4   | :star: | :star: |
-| 5   |        |        |
+| 5   | :star: |        |
 | 6   | :star: | :star: |
 | 7   | :star: | :star: |
 | 8   | :star: | :star: |
@@ -42,12 +42,10 @@ The repository is organized into folders corresponding to each day of the Advent
 ├── day-01
 │   ├── day-01-p1.py
 │   ├── day-01-p2.py
-│   └── input.txt
 │   └── README.md
 ├── day-02
 │   ├── day-02-p1.py
 │   ├── day-02-p2.py
-│   └── input.txt
 │   └── README.md
 ├── ...
 └── README.md
