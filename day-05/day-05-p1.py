@@ -1,20 +1,17 @@
 import re
 
 with open(".\day-05\input.txt") as f:
-    input = f.read()
-segments = input.split("\n\n")
-seeds = re.findall(r"\d+", segments[0])
-print("seeds", seeds)
+    segments = f.read().split("\n\n")
 
-min_location = float("inf")
-for x in map(int, seeds):
+seeds = [int(seed) for seed in re.findall(r"\d+", segments[0])]
+min = float("inf")
+for x in seeds:
     for segment in segments[1:]:
-        for conversion in re.findall(r"(\d+) (\d+) (\d+)", segment):
-            destination, start, delta = map(int, conversion)
-            if x in range(start, start + delta):
+        for conversion in re.finditer(r"(\d+) (\d+) (\d+)", segment):
+            destination, start, delta = map(int, conversion.groups())
+            if start <= x < start + delta:
                 x += destination - start
                 break
+    min = min(x, min)
 
-    min_location = min(x, min_location)
-
-print(min_location)
+print(min)
