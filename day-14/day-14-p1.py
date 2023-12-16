@@ -11,10 +11,10 @@ for col_index in range(len(data[0])):
         if data[row_index][col_index] == "O":
             rocks += 1
         elif data[row_index][col_index] == "#":
-            load += sum(range(limit, limit - rocks, -1))
+            load += rocks * (limit + limit - rocks + 1) // 2
             limit = data_length - row_index - 1
             rocks = 0
         if row_index == data_length - 1:
-            load += sum(range(limit, limit - rocks, -1))
+            load += rocks * (limit + limit - rocks + 1) // 2
 
 print(load)
