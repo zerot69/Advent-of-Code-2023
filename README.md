@@ -20,7 +20,7 @@ This repository contains my solutions for the [Advent of Code 2023](https://adve
 | 10  | :star: |        |
 | 11  | :star: | :star: |
 | 12  |        |        |
-| 13  | :star: |        |
+| 13  | :star: | :star: |
 | 14  | :star: | :star: |
 | 15  | :star: | :star: |
 | 16  |        |        |
